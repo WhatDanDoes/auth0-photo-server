@@ -112,7 +112,6 @@ app.use(passport.session());
 const flash = require('connect-flash');
 app.use(flash());
 
-
 /**
  * view engine setup
  */
