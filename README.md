@@ -1,7 +1,7 @@
 auth0-photo-server
 ==================
 
-`node`/`express` backend for receiving photos sent by the [basic-photo-economizer](https://github.com/WhatDanDoes/basic-photo-economizer) (my first `react-native` Android app).
+`node`/`express` backend for receiving photos sent by a progressive in-browser camera application.
 
 The `auth0-photo-server` may be considered a _hard fork_ of the [basic-photo-server](https://github.com/WhatDanDoes/basic-photo-server), though the repository was never actually forked. This project is motivated by the need to determine how to properly leverage the service provided by the [SIL Identity](https://silid.languagetechnology.org) app. While the _basic_ version of the photo server allows for traditional email-password authentication, this version provides access to anyone who can authenticate against a recognized third-party authority (only Gmail, for the moment). In turn, the app organizer (i.e., me) will be able to decide the level at which an authenticated agent may operate.
 
