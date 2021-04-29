@@ -909,9 +909,7 @@ describe('image mobile upload', () => {
 
                   const APP_URL = `http://localhost:${PORT}`;
                   const puppeteer = require('puppeteer');
-                  // The `default` reference is temporary until `nock-puppeteer`
-                  // 1.0.6 is released
-                  const useNock = require('nock-puppeteer').default;
+                  const useNock = require('nock-puppeteer');
                   const path = require('path');
 
                   let puppetBrowser, page;
